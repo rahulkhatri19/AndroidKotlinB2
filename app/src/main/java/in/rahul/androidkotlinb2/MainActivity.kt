@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import `in`.rahul.androidkotlinb2.session2_1.BasicJetpack
 import `in`.rahul.androidkotlinb2.ui.theme.AndroidKotlinB2Theme
 
 class MainActivity : ComponentActivity() {
@@ -20,6 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AndroidKotlinB2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    BasicJetpack("Android")
                     Greeting(
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
@@ -32,10 +34,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
+//    Text(
+//        text = "Hello $name!",
+//        modifier = modifier
+//    )
 }
 
 @Preview(showBackground = true)

@@ -1,4 +1,4 @@
-package `in`.rahul.androidkotlinb2.Session1_2
+package `in`.rahul.androidkotlinb2.session1_2
 
 class BasicKotlin {
 }
