@@ -98,7 +98,7 @@ fun UnitConverter() {
                         }
                     }
                 ) {
-                    Text(text = list, modifier = Modifier.padding(12.dp))
+                    Text(text = list.first, modifier = Modifier.padding(12.dp))
                 }
             }
         }
